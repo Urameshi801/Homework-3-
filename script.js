@@ -105,7 +105,6 @@ function generatePassword() {
   }
   var passwordText = document.querySelector("#password");
   passwordText.value = writePassword(password);
-
 }
 
 // Write password to the #password input
